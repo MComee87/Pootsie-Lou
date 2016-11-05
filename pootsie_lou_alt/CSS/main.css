@@ -1,0 +1,125 @@
+.* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("http://www.pootsielou.biz/files/20160701_093920.png");
+}
+
+nav{
+    position: fixed;
+    top:-20px;
+    left: 0px;
+    border-bottom: 20px solid black;
+    border-image: url("http://www.pootsielou.biz/theme/images/container-bottom.png") 100;
+    width: 100%;
+    height: 100px;
+}
+
+nav p, h1{
+    text-align: center;
+    background-image: url("http://www.pootsielou.biz/files/images-2.jpeg");
+    height: 60px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0px;
+    height: 10%;
+    border-top: 15px solid black;
+    border-image: url("http://www.pootsielou.biz/theme/images/container-top.png") 80;
+}
+
+footer p{
+    text-align: center;
+    background-image: url("http://www.pootsielou.biz/files/images-2.jpeg");
+    height: 100%;
+    padding-top: 3%;
+    margin-top: 0%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.grid {
+    background-image: url("http://www.pootsielou.biz/files/images-2.jpeg");
+    border-radius: 0%;
+    margin: 15% auto;
+    max-width: 1200px;
+    width: 100%;
+    position: center;
+    overflow: auto;
+}
+
+.row {
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 0%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+    p{
+        display: none;
+    }
+}
