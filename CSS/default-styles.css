@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.box {
+  min-height: 150px;
+}
+
+.base_light_blue{
+  background-image: url("http://www.pootsielou.biz/files/20160701_093920.png");
+
+  color: #efefef;
+}
+
+.base_dark_blue {
+  background-image: url("http://www.pootsielou.biz/files/images-2.jpeg");
+}
+
+.base_green {
+  background-color: #0C8542;
+}
+
+.base_lime {
+  background-color: rgb(179, 210, 52);
+}
+
+.base_seafoam {
+  background-color: rgb(77, 190, 161);
+}
+
+.base_red {
+  background-color: #EC1D3B;
+}
+
+.base_orange {
+  background-color: #F79420;
+}
